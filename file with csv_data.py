@@ -5,7 +5,7 @@ import numpy as np
 
 varg = []
 
-with open('pymon/city-data forgit.csv') as data:
+with open('pymon/city-data forgit.csv') as data: '''change path as needed'''
     test = csv.reader(data)
     for tag in test:
         varg.append(tag)
